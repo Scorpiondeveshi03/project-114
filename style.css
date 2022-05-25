@@ -1,0 +1,33 @@
+h3{
+    font-size: 25px !important;
+}
+
+.btn-success:hover {
+    background-color: hotpink;
+    box-shadow: 0 0 5px hotpink,  0 0 25px hotpink,0 0 50px hotpink,
+    0 0 200px hotpink;
+    
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+   from{
+    box-shadow: 0 0 5px lavender,  0 0 25px lavender,0 0 50px lavender,
+    0 0 200px lavender;
+    border-radius: 25px;
+   } 
+    to{box-shadow: 0 0 5px lavender,  0 0 25px lavender,0 0 50px lavender,
+        0 0 200px lavender;
+        border-radius: 0px;}
+}
+
+.bg {
+    background-image:url("background.jpg");
+    background-position: center;
+    background-size: cover;
+}
